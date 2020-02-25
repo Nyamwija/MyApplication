@@ -47,11 +47,14 @@ public class MainActivity extends AppCompatActivity {
         int itemId1 = item.getItemId();
         switch (itemId1) {
             case R.id.nam1:
-                Intent i = new Intent(this, Main2.class);
+                Intent i = new Intent(this, main1.class);
                 // Intent a = new Intent(Intent.ACTION_VIEW, Uri.parse(nam1));
 
             case R.id.nam:
                 startActivity(new Intent(this, Main2.class));
+                return true;
+            case R.id.list:
+                startActivity(new Intent(this, ListView.class));
                 return true;
             default:
 

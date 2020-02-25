@@ -8,4 +8,7 @@
     <item
         android:id="@+id/nam"
         android:title="item2" />
+    <item
+        android:id="@+id/list"
+        android:title="my list" />
 </menu>
