@@ -1,3 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources><string name="program">Programa</string>
+<resources><string name="program">Programo</string>
+
+    <string name="text_view_data">Enigu la Tekstan Datumon</string>
+    <string name="edit_text_data">Enigu vian informon</string>
+    <string name="view_button">Vidi Informojn</string>
+    <string name="save_button_public">Konservu Publike</string>
+    <string name="save_button_private">Konservu Private</string>
+
+    <string name="text_view_saved_data">Konservita Teksta Datumo</string>
+    <string name="saved_information">Alklaku por vidi konservitajn informojn</string>
+    <string name="back_button">Reiru</string>
+    <string name="show_button_public">Publikaj Datumoj</string>
+    <string name="show_button_private">Privataj Datumoj</string>
+
 </resources>
