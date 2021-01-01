@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myapplication">
-
+<!--    this the permission for phone vibration-->
     <uses-permission android:name="android.permission.VIBRATE" />
+<!--    this one allows the application to get access to internet connection-->
     <uses-permission android:name="android.permission.INTERNET"/>
+<!--    it allows the application to read from external devices eg sd card-->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
@@ -36,7 +38,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+<!-- this indicates service-->
         <service android:name=".MyService" />
     </application>
 
